@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  font-family: 'Roboto Condensed', sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*************************************************/
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+html, body {
+  height: 100%;
+}
+body {
+  border-left: 60px solid #333;
+  border-right: 60px solid white;
+}
+h1 {
+  padding: 25px 11px;
+  font-size: 28px;
+  color: #333;
+}
+em {
+  font-style: italic;
+}
+.bar {
+  background-color: #333;
+  padding: 11px;
+  min-width: 234px;
+}
+.bar, .bar a {
+  font-family: 'Kavoon', cursive;
+  color: #EEE;
+}
+.bar a {
+  white-space: nowrap;
+  display: inline-block;
+  padding-right: 15px;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+.bar a:hover {
+  color: #4FD5D6;
+}
+.bar a.selected {
+  color: red;
+}
+.content {
+  padding: 11px;
+}
+.content p {
+  margin-bottom: 11px;
+  color: #333;
+  line-height: 19px;
+}
+.project {
+  float: left;
+  max-width: 375px;
+  background-color: #EEE;
+  margin: 0 11px 11px 0;
+  padding: 11px;
+  line-height: 1.2;
+  font-size: 85%;
+  min-height: 205px;
+}
+.project h2 {
+  font-weight: bold;
+  margin-bottom: 11px;
+  font-size: 120%;
+}
+.right {
+  text-align: right;
+}
