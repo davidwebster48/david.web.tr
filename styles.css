@@ -210,3 +210,18 @@ footer img {
 	max-width: calc(100vw - 20px);
 	margin: 0 0 10px 10px;
 }
+
+.contact p {
+	line-height: 80px;
+	font-size: 20px;
+}
+.contact img {
+	width: 55px;
+	vertical-align: middle;
+	margin-right: 15px;
+	filter: invert(100%);
+}
+
+.contact section {
+	max-width: 350px;
+}
