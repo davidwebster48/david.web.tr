@@ -135,6 +135,8 @@ section {
 	margin: 18px auto;
 	color: white;
 	clear: both;
+	padding-left: 10px;
+    padding-right: 10px;
 }
 
 .resume section img {
@@ -200,4 +202,11 @@ footer img {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+.personal img {
+	float: right;
+	width: 604px;
+	max-width: calc(100vw - 20px);
+	margin: 0 0 10px 10px;
 }
