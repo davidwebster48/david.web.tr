@@ -49,13 +49,9 @@ table {
 }
 
 /* END OF RESET */
-:root {
-	--header-height: 50px;
-} 
-
 body {
 	background: #4F888C;
-	padding-top: var(--header-height);
+	padding-top: 60px;
 }
 
 a, a:visited {
@@ -148,8 +144,6 @@ section {
 }
 .resume section p, .resume section ul {
 	clear: both;
-	margin-bottom: 0.5em;
-
 }
 .resume section ul {
 	padding-left: 21px;
@@ -224,4 +218,8 @@ footer img {
 
 .contact section {
 	max-width: 350px;
+}
+
+p {
+	margin-bottom: 1em;
 }
