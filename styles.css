@@ -145,10 +145,12 @@ section {
 .resume section p, .resume section ul {
 	clear: both;
 }
-.resume section ul {
+.resume section ul,
+.aspirations ul {
 	padding-left: 21px;
 }
-.resume section li {
+.resume section li,
+.aspirations li {
 	list-style-type: disc;
 }
 
